@@ -1,11 +1,9 @@
 # homework 6: Strings, Searching, Pointers!
 
-**Due date: Thursday, 22 May 2025, 11:59pm**
-
 # introduction
 
-In this homework, we will implement a solver for the popular word-guessing game
-wordle, building on our work from last week!
+This project will implement a solver for the popular word-guessing game
+wordle
 
 This solver will work in two different ways -- either the secret word may be
 known to the user and specified to the program (useful for testing purposes, so
@@ -13,10 +11,7 @@ that the program can whittle down the search space until it finds the specified
 word), or the solver can iteratively suggest guesses to the user, so as to
 search for solutions to a live problem.
 
-*An important part of this homework is writing your own tests.*  -- for hw6,
-you're given the framework of an application and a specification for how the
-functions should work, but no test cases -- it's your job, and part of the
-grade, to come up with test cases for each of the functions.
+Original Test Cases have been written and tested upon.
 
 ## picking a word to guess
 
@@ -165,7 +160,7 @@ All of the code you need to finish is in `search_util.c`.
 
 ## Cleaning up our messes
 
-For this homework, we are allocating some dynamic data structures, with
+We are allocating some dynamic data structures, with
 `malloc`, `calloc`, and `realloc`.
 
 Most of the work has been done for you already, but you need to make sure that
@@ -213,13 +208,8 @@ One point off if you leak memory.
 
 ## deliverables
 
-All of your deliverables for this homework should be checked in to a directory
-called `hw6` in your CSE13s gitlab repository. Remember -- *add, commit, push*.
 
-The resources you need are available in this directory.
-
-  * By **Monday, 19 May 2025**, you should have written your `DESIGN.md`,
-    containing your thoughts and plans and pseudocode for this assignment. Write
+  * `DESIGN.md`, containing your thoughts and plans and pseudocode for this assignment. Write
     a little blurb about each of the functions you are going to implement,
     perhaps a bit of pseudocode. Also discuss your plans for cleaning up all the
     memory that you allocate -- and link your DESIGN.md in the appropriate
@@ -236,10 +226,3 @@ The resources you need are available in this directory.
   * Makefile -- make sure that you use the standard flags for the class in your
     Makefile.
 
-## reading
-
-You should read...
-  * _The C Programming Language_ by Kernighan & Ritchie, Chapter 7 (to
-    understand the I/O happening here).
-  * _The C Programming Language_ by Kernighan & Ritchie, Chapter 8 (more
-    discussion of I/O, also an explanation of realloc).
