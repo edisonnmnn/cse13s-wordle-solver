@@ -1,4 +1,4 @@
-# homework 6: Strings, Searching, Pointers!
+# wordle solver
 
 # introduction
 
